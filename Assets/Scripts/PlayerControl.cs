@@ -86,6 +86,11 @@ public class PlayerControl : MonoBehaviour
 			// Make sure the player can't jump again until the jump conditions from Update are satisfied.
 			jump = false;
 		}
+		
+		if (h == 0f) {
+			rigidbody2D.velocity = new Vector3(0f, rigidbody2D.velocity.y, 0f);
+			//Debug.Log("Stop");
+		}
 	}
 	
 	
