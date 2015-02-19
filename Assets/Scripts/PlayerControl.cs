@@ -52,7 +52,7 @@ public class PlayerControl : MonoBehaviour
 		anim.SetFloat("Speed", Mathf.Abs(h));
 
 		// If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
-		if(h * rigidbody2D.velocity.x < maxSpeed)
+		if(h * rigidbody2D.velocity.x < maxSpeed && grounded)
 			// ... add a force to the player.
 			rigidbody2D.AddForce(Vector2.right * h * moveForce);
 
@@ -77,9 +77,9 @@ public class PlayerControl : MonoBehaviour
 			anim.SetTrigger("Jump");
 
 			// Play a random jump audio clip.
-			int i = Random.Range(0, jumpClips.Length);
+			/*int i = Random.Range(0, jumpClips.Length);
 			AudioSource.PlayClipAtPoint(jumpClips[i], transform.position);
-
+			*/
 			// Add a vertical force to the player.
 			rigidbody2D.AddForce(new Vector2(0f, jumpForce));
 
