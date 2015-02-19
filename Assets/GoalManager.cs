@@ -25,6 +25,6 @@ public class GoalManager : MonoBehaviour {
 	IEnumerator Win() {
 		winScreen.SetActive(true);
 		yield return new WaitForSeconds(5f);
-		Application.LoadLevel("MainMenu");
+		SceneManager.Instance.NextScene();
 	}
 }

@@ -88,7 +88,7 @@ public class PlayerControl : MonoBehaviour
 		}
 		
 		if (h == 0f) {
-			rigidbody2D.velocity = new Vector3(0f, rigidbody2D.velocity.y, 0f);
+			//rigidbody2D.velocity = new Vector3(0f, rigidbody2D.velocity.y, 0f);
 			//Debug.Log("Stop");
 		}
 	}
