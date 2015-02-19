@@ -1,7 +1,21 @@
 fileFormatVersion: 2
 guid: 7ca3771b778564d4e97a8cfac1812d33
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: thunderGoddess_0
+    21300002: thunderGoddess_1
+    21300004: thunderGoddess_2
+    21300006: thunderGoddess_3
+    21300008: thunderGoddess_4
+    21300010: thunderGoddess_5
+    21300012: thunderGoddess_6
+    21300014: thunderGoddess_7
+    21300016: thunderGoddess_8
+    21300018: thunderGoddess_9
+    21300020: thunderGoddess_10
+    21300022: thunderGoddess_11
+    21300024: thunderGoddess_12
+    21300026: thunderGoddess_13
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,13 +39,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +56,146 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: thunderGoddess_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 36
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 31
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_3
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 36
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 31
+        width: 51
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_5
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 31
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_6
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 22
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_7
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 7
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 28
+        width: 77
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 24
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 26
+        width: 85
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_11
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 26
+        width: 91
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_12
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 23
+        width: 59
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: thunderGoddess_13
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2
+        width: 84
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
